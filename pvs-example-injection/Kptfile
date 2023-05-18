@@ -4,7 +4,7 @@ metadata: # kpt-merge: /pvs-example-injection
   name: pvs-example-injection
   annotations:
     config.kubernetes.io/local-config: "true"
-    internal.kpt.dev/upstream-identifier: 'kpt.dev|Kptfile|default|pvs-example-injection'
+    internal.kpt.dev/upstream-identifier: kpt.dev|Kptfile|default|pvs-example-injection
 upstream:
   type: git
   git:
